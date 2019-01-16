@@ -8,10 +8,10 @@
 
 using namespace std;
 
-char *fileNameTexScorpion = "./textures/dragonSkin.bmp";
-char *filenameTexTop = "./textures/woodTextureTop.bmp";
-char *filenameTexFront = "./textures/woodTextureFront.bmp";
-char *filenameTexSide = "./textures/woodTextureSide.bmp";
+char *fileNameTexScorpion = "../textures/dragonSkin.bmp";
+char *filenameTexTop = "../textures/woodTextureTop.bmp";
+char *filenameTexFront = "../textures/woodTextureFront.bmp";
+char *filenameTexSide = "../textures/woodTextureSide.bmp";
 
 GLuint _textureIdScorpion;
 GLuint _textureIdSphere;
