@@ -185,11 +185,27 @@ void handleKeypress(unsigned char key, int x, int y) {
         glutPostRedisplay();
         break;
     case '7':
-        if(angleBum < 0) angleBum +=3;
+        if(angleBum < -30) angleBum +=3;
         glutPostRedisplay();
         break;
     case '8':
         if(angleBum > -60) angleBum -=3;
+        glutPostRedisplay();
+        break;
+    case '9':
+        if(angleFoot < 90) angleFoot += 3;
+        glutPostRedisplay();
+        break;
+    case '0':
+        if(angleFoot > 75) angleFoot -= 3;
+        glutPostRedisplay();
+        break;
+    case '-':
+        if(angleForeleg < 30) angleForeleg += 3;
+        glutPostRedisplay();
+        break;
+    case '=':
+        if(angleForeleg > 10) angleForeleg -= 3;
         glutPostRedisplay();
         break;
     }
